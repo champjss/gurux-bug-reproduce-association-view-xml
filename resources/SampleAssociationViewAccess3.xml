@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <GXDLMSClock>
+    <LN>0.0.1.0.0.255</LN>
+    <Description>Ch. 0 Clock object  #1</Description>
+    <Access3>800380038001800380038003800380018003</Access3>
+    <MethodAccess3>800080008000800080008001</MethodAccess3>
+    <Time />
+    <TimeZone>0</TimeZone>
+    <Status>0</Status>
+    <Begin />
+    <End />
+    <Deviation>0</Deviation>
+    <Enabled>0</Enabled>
+    <ClockBase>0</ClockBase>
+  </GXDLMSClock>
+</Objects>

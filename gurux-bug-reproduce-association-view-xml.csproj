@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>gurux_bug_reproduce_association_view_xml</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Gurux.Common" Version="8.4.2302.901" />
+    <PackageReference Include="Gurux.DLMS" Version="9.0.2307.501" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="resources\" />
+    <None Remove="resources\SampleAssociationView.xml" />
+    <None Remove="resources\SampleAssociationViewAccess1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\SampleAssociationViewAccess3.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\SampleAssociationViewAccess1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
